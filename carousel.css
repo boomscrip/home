@@ -2,10 +2,15 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 .navvv{
+
+
 padding-top: 50px;
 
 }
 
+.header-contact{
+	padding-right: 20px;
+}
 .fixed-top {
     position: fixed;
     top: 0;
@@ -14,11 +19,7 @@ padding-top: 50px;
     z-index: 1030;
 
 
-.header-contact{
-	top: 0;
-	text-align: right;
-	padding-right: 50px;
-}
+.
 .news h3{
 	text-align: center;
 	/*font-size: 20px;*/
