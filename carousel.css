@@ -6,8 +6,23 @@ padding-top: 50px;
 
 }
 
+.carousel {
+    margin-bottom: 3rem !important;
+}
+
+.featurette-divider {
+    margin: 3rem 0 !important;
+}
+.news{
+
+	border: 2px solid black;
+	border-radius: 25px;
+	padding: 25px;
+}
+
 .featurette-divider{
-border:2px black;
+border:1px solid #575353;;
+opacity: 0.3;
 
 }
 .rounded-circle {
