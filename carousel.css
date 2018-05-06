@@ -1,12 +1,20 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-.navvv{
 
 
-padding-top: 50px;
+/*.footer-contact{
+	width: 200px;
+	height: 200px;
+}*/
 
+.con{
+	display: none;
 }
+.navvv{
+padding-top: 50px;
+}
+
 
 .header-contact{
 	padding-right: 20px;
@@ -75,7 +83,9 @@ opacity: 0.3;
 	border-radius: 20px;
 }*/
 
-
+.footer-divi{
+	margin: 2rem 0;
+}
 .dropdown-my{
 background-color: #808080;
 opacity:0.8;
@@ -83,7 +93,7 @@ opacity:0.8;
 
 }
 .footer-contact{
-	text-align: right;
+	text-align: center;
 }
 
 .dropdown-item{
@@ -178,10 +188,38 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
+
+
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
-  }
+	}
+
+
+}
+
+@media (min-width: 420px){
+
+.con{
+	display: none;
+}
+.header-contact{
+display:block;
+}
+}
+
+@media (max-width: 400px){
+
+
+.header-contact{
+display:none;
+}
+
+.con{
+	display: block;
+	padding-top: 30px;
+}
 }
